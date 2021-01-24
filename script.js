@@ -92,7 +92,7 @@ var ssylka = document.querySelector('.ssylka')
     var sha = data.sha
     await write_command(sha)
 
-    await delay(20000)
+    await delay(30000)
 
     var data = await read_2(url_v)
     var data = final
