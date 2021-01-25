@@ -56,6 +56,7 @@ var ssylka = document.querySelector('.ssylka')
   ssylka.addEventListener('click', async function(evt) {
     var table = document.querySelector('.table');
     alert("привет миша :)")
+    ssylka.disabled = true
     try {
       table.classList.remove('visible')
       await delay(200)
@@ -118,5 +119,6 @@ var ssylka = document.querySelector('.ssylka')
     } catch {}
     await delay(200)
     table.classList.add('visible')
+    ssylka.disabled = false
 
 });
