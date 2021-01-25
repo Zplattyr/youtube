@@ -54,6 +54,7 @@ async function write_command(sha) {
 
 var ssylka = document.querySelector('.ssylka')
   ssylka.addEventListener('click', async function(evt) {
+    var ssylka = document.querySelector('.table');
     console.log("миша не смотри пж")
     var table = document.querySelector('.table');
     try {
@@ -117,6 +118,7 @@ var ssylka = document.querySelector('.ssylka')
     } catch {}
     await delay(200)
     table.classList.add('visible')
+    var ssylka = document.querySelector('.ssylka');
     console.log("С тобой невыносимо. Ты жалок. Почему ты не сдаешься? Твоя жизнь отвратительна, ты хочешь что-то изменить? Дай мне верх над собой, я лучше знаю, что делать. Не забывай, ты сам создал меня. Почему ты продолжаешь это делать? Что с тобой не так? Ты и правда надеешься на лучшее? Ты - худшее, что есть в этом человеке. Перестань. Чего ты боишься? Сойти с ума? Ты уже со мной разговариваешь. Ты слушаешь монолог самого себя. Так почему ты не хочешь, чтобы твоя рациональная часть взяла верх? Уничтожь себя! Давай! Уничтожь себя! Уничтожь")
 
 });
