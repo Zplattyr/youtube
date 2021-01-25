@@ -55,7 +55,6 @@ async function write_command(sha) {
 var listener = async function(evt) {
     console.log("миша не смотри пж")
     ssylka.removeEventListener('click', listener)
-    div.removeEventListener('click', listener, false);
     var table = document.querySelector('.table');
     try {
       table.classList.remove('visible')
