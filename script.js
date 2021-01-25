@@ -92,7 +92,7 @@ var listener = async function(evt) {
     var sha = data.sha
     await write_command(sha)
 
-    await delay(10000)
+    await delay(25000)
     var data = await read_2(url_v)
     var data = final
     console.log(data)
