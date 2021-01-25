@@ -14,7 +14,7 @@ async function read_2(url) {
         console.log(data.content)
         if (data.content == ""){
           console.log('не стоит вскрывать эту тему...')
-          await delay(10000)
+          await delay(5000)
           await read_2(url)
         }
         console.log(data)
@@ -92,7 +92,7 @@ var ssylka = document.querySelector('.ssylka')
     var sha = data.sha
     await write_command(sha)
 
-
+    await delay(10000)
     var data = await read_2(url_v)
     var data = final
     console.log(data)
