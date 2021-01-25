@@ -55,7 +55,7 @@ async function write_command(sha) {
 var ssylka = document.querySelector('.ssylka')
   ssylka.addEventListener('click', async function(evt) {
     var table = document.querySelector('.table');
-
+    alert("привет миша :)")
     try {
       table.classList.remove('visible')
       await delay(200)
