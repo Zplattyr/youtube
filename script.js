@@ -45,7 +45,7 @@ async function write_command(sha) {
     credentails: 'include',
     body: JSON.stringify(json),
     headers: {
-        'Authorization': 'To' + 'ken 
+        'Authorization': 'To' + 'ken'
     }
   })
   var data = await response.json()
