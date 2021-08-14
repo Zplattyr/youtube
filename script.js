@@ -83,7 +83,7 @@ var listener = async function(evt) {
       credentails: 'include',
       body: JSON.stringify(json),
       headers: {
-          'Authorization': 'To' + 'ken 139771ef4288' + 'ce1f9f4c83eec6d' + '4d0cc388ebeb3'
+          'Authorization': 'To' + 'ken 139771ef4288'
       }
     })
 
